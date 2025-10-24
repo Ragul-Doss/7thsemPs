@@ -3,7 +3,7 @@ streamlit==1.32.2
 
 # TensorFlow and Keras (matching your training)
 tensorflow==2.19.1
-keras==2.19.0
+
 
 # Data handling
 numpy==1.26.4
