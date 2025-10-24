@@ -74,7 +74,7 @@ def load_mental_model(path=MENTAL_MODEL_PATH):
 def load_brain_model(path=BRAIN_MODEL_PATH):
     if os.path.exists(path):
         try:
-            return tf.keras.models.load_model(path)
+           return keras_load_model(path)
         except Exception as e:
             st.error(f"Failed to load brain model: {e}")
     return None
