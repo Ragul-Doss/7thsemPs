@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 import os
 import joblib
-import tensorflow as tf
+from keras.models import load_model as keras_load_model
 import random
 from io import BytesIO
 
